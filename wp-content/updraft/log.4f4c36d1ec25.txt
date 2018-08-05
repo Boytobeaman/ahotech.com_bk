@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Sun, 01 Jul 2018 16:49:50 +0000 on http://www.ahotech.com
+0000.001 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.11 WP: 4.9.6 PHP: 7.2.3 (apache2handler, Linux izj6c8mciwctrfdv24urm7z 3.10.0-514.16.1.el7.x86_64 #1 SMP Wed Apr 12 15:04:24 UTC 2017 x86_64) MySQL: 5.6.39 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 192M (used: 7.3M | 8M) multisite: N openssl: OpenSSL 1.0.2n  7 Dec 2017 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.001 (1) Free space on disk containing Updraft's temporary directory: 29192.5 MB
+0000.003 (1) This backup task (4f4c36d1ec25) is either complete or began over 2 days ago: ending (1530463790.7926, ) (existing jobdata keys: )
