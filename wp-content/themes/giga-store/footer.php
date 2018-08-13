@@ -11,18 +11,10 @@
 	<div class="container">  
 		<div class="row">
 					<div id="footerLink">
-						<p>
-							<a href="https://www.plastic-crate.co.uk" target="_blank" >euro crates</a> <b>|</b>
-							<a href="http://www.joinplastic.com" target="_blank" >plastic folding crate</a> <b>|</b>
-							<a href="https://www.moving-dolly.com" target="_blank" >plastic moving dolly</a>
-							<b>|</b>
-							<a href="http://www.joinplastic.com/products/stackableBox/stackableBox.php" target="_blank" >stackable plastic crates</a>
-							<b>|</b>
-							<a href="https://www.palletboxsale.com/" target="_blank">Collapsible plastic pallet box</a>
-							<b>|</b>
-							<a href="https://www.plastic-crate.com/" target="_blank">plastic moving boxes for sale</a>
-							<b>|</b>
-							<a href="http://www.jiajiubox.com" target="_blank" >上海周转箱</a>
+						<p class="text-center">
+							<a href="http://www.chinapudi.cn/" target="_blank" >上海浦迪</a> <b>|</b>
+							<a href="http://www.znkia.cn/" target="_blank" >正基</a> <b>|</b>
+							<a href="http://www.dasen.cn/" target="_blank" >苏州大森</a>
 							<b>|</b>
 						</p>
 					</div>
@@ -59,5 +51,5 @@
   </div>
 </div>
 </body>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 </html>
