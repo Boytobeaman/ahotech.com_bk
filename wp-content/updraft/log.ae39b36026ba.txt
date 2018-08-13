@@ -1,0 +1,178 @@
+0000.024 (0) Opened log file at time: Sat, 11 Aug 2018 16:49:33 +0000 on http://www.ahotech.com
+0000.025 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.12 WP: 4.9.6 PHP: 7.2.3 (apache2handler, Linux izj6c8mciwctrfdv24urm7z 3.10.0-514.16.1.el7.x86_64 #1 SMP Wed Apr 12 15:04:24 UTC 2017 x86_64) MySQL: 5.6.39 WPLANG: zh_CN Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 192M (used: 10.1M | 4M) multisite: N openssl: OpenSSL 1.0.2n  7 Dec 2017 mcrypt: N LANG: en_US.UTF-8 ZipArchive::addFile: Y
+0000.026 (0) Free space on disk containing Updraft's temporary directory: 28237.5 MB
+0000.028 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.029 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.031 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1533919779, seconds_ago=86394)
+0000.033 (0) Set semaphore last lock (fd) time to 2018-08-11 16:49:33
+0000.033 (0) Semaphore lock (fd) complete
+0000.035 (0) Backup run: resumption=0, nonce=ae39b36026ba, begun at=1534006173 (0s ago), job type=backup
+0000.037 (0) Scheduling a resumption (1) after 300 seconds (1534006473) in case this run gets aborted
+0000.060 (0) Checking if we have a zip executable available
+0000.061 (0) Creation of backups of directories: beginning
+0000.064 (0) No backup of plugins: excluded by user's options
+0000.065 (0) No backup of themes: excluded by user's options
+0000.065 (0) No backup of uploads: excluded by user's options
+0000.065 (0) No backup of others: excluded by user's options
+0000.068 (0) Saving backup status to database (elements: 0)
+0000.073 (0) Beginning creation of database dump (WordPress DB)
+0000.191 (0) Table wp_options: Total expected rows (approximate): 497
+0000.212 (0) Table wp_options: Total rows added: 501 in 0.02 seconds
+0000.213 (0) Table wp_options: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_options.table.gz - 81.6 KB)
+0000.217 (0) Table wp_users: Total expected rows (approximate): 2
+0000.218 (0) Table wp_users: Total rows added: 2 in 0.00 seconds
+0000.218 (0) Table wp_users: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_users.table.gz - 0.6 KB)
+0000.221 (0) Table wp_usermeta: Total expected rows (approximate): 96
+0000.223 (0) Table wp_usermeta: Total rows added: 96 in 0.00 seconds
+0000.224 (0) Table wp_usermeta: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_usermeta.table.gz - 3.3 KB)
+0000.226 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.227 (0) Table wp_commentmeta: Total rows added: 1 in 0.00 seconds
+0000.228 (0) Table wp_commentmeta: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0000.232 (0) Table wp_comments: Total expected rows (approximate): 0
+0000.233 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0000.233 (0) Table wp_comments: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_comments.table.gz - 0.8 KB)
+0000.236 (0) Table wp_links: Total expected rows (approximate): 0
+0000.238 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0000.239 (0) Table wp_links: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_links.table.gz - 0.4 KB)
+0000.242 (0) Table wp_postmeta: Total expected rows (approximate): 6190
+0000.307 (0) Table wp_postmeta: Total rows added: 6191 in 0.06 seconds
+0000.308 (0) Table wp_postmeta: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_postmeta.table.gz - 61.2 KB)
+0000.311 (0) Table wp_posts: Total expected rows (approximate): 493
+0000.347 (0) Table wp_posts: Total rows added: 521 in 0.04 seconds
+0000.348 (0) Table wp_posts: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_posts.table.gz - 87.3 KB)
+0000.351 (0) Table wp_term_relationships: Total expected rows (approximate): 319
+0000.353 (0) Table wp_term_relationships: Total rows added: 327 in 0.00 seconds
+0000.354 (0) Table wp_term_relationships: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_term_relationships.table.gz - 1.2 KB)
+0000.357 (0) Table wp_term_taxonomy: Total expected rows (approximate): 57
+0000.359 (0) Table wp_term_taxonomy: Total rows added: 57 in 0.00 seconds
+0000.359 (0) Table wp_term_taxonomy: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_term_taxonomy.table.gz - 1.7 KB)
+0000.362 (0) Table wp_termmeta: Total expected rows (approximate): 38
+0000.363 (0) Table wp_termmeta: Total rows added: 38 in 0.00 seconds
+0000.364 (0) Table wp_termmeta: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_termmeta.table.gz - 0.7 KB)
+0000.367 (0) Table wp_terms: Total expected rows (approximate): 57
+0000.368 (0) Table wp_terms: Total rows added: 57 in 0.00 seconds
+0000.369 (0) Table wp_terms: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_terms.table.gz - 1.2 KB)
+0000.372 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0000.374 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 0 in 0.00 seconds
+0000.374 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0000.376 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0000.377 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0000.379 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0000.381 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 519
+0000.386 (0) Table wp_yoast_seo_links: Total rows added: 516 in 0.00 seconds
+0000.386 (0) Table wp_yoast_seo_links: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_yoast_seo_links.table.gz - 4 KB)
+0000.389 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 254
+0000.391 (0) Table wp_yoast_seo_meta: Total rows added: 275 in 0.00 seconds
+0000.393 (0) Table wp_yoast_seo_meta: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_yoast_seo_meta.table.gz - 1 KB)
+0000.395 (0) Table wp_pmxi_files: Total expected rows (approximate): 0
+0000.396 (0) Table wp_pmxi_files: Total rows added: 1 in 0.00 seconds
+0000.397 (0) Table wp_pmxi_files: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_files.table.gz - 0.5 KB)
+0000.399 (0) Table wp_pmxi_history: Total expected rows (approximate): 0
+0000.401 (0) Table wp_pmxi_history: Total rows added: 1 in 0.00 seconds
+0000.401 (0) Table wp_pmxi_history: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_history.table.gz - 0.5 KB)
+0000.404 (0) Table wp_pmxi_images: Total expected rows (approximate): 0
+0000.405 (0) Table wp_pmxi_images: Total rows added: 0 in 0.00 seconds
+0000.405 (0) Table wp_pmxi_images: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_images.table.gz - 0.3 KB)
+0000.408 (0) Table wp_pmxi_imports: Total expected rows (approximate): 0
+0000.410 (0) Table wp_pmxi_imports: Total rows added: 1 in 0.00 seconds
+0000.411 (0) Table wp_pmxi_imports: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_imports.table.gz - 4.4 KB)
+0000.413 (0) Table wp_pmxi_posts: Total expected rows (approximate): 57
+0000.414 (0) Table wp_pmxi_posts: Total rows added: 57 in 0.00 seconds
+0000.416 (0) Table wp_pmxi_posts: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_posts.table.gz - 1.1 KB)
+0000.418 (0) Table wp_pmxi_templates: Total expected rows (approximate): 0
+0000.419 (0) Table wp_pmxi_templates: Total rows added: 0 in 0.00 seconds
+0000.419 (0) Table wp_pmxi_templates: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_templates.table.gz - 0.4 KB)
+0000.422 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0000.423 (0) Table wp_wc_download_log: Total rows added: 0 in 0.00 seconds
+0000.425 (0) Table wp_wc_download_log: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0000.427 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0000.428 (0) Table wp_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0000.429 (0) Table wp_wc_webhooks: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0000.431 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0000.433 (0) Table wp_woocommerce_api_keys: Total rows added: 0 in 0.00 seconds
+0000.433 (0) Table wp_woocommerce_api_keys: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0000.436 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0000.437 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0000.437 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0000.440 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0000.441 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0000.442 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0000.444 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0000.445 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0000.446 (0) Table wp_woocommerce_log: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0000.449 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0000.449 (0) Table wp_woocommerce_order_items: Total rows added: 0 in 0.00 seconds
+0000.450 (0) Table wp_woocommerce_order_items: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_order_items.table.gz - 0.4 KB)
+0000.452 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0000.454 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0000.454 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0000.457 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0000.458 (0) Table wp_woocommerce_sessions: Total rows added: 1 in 0.00 seconds
+0000.458 (0) Table wp_woocommerce_sessions: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_sessions.table.gz - 0.8 KB)
+0000.461 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0000.463 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 0 in 0.00 seconds
+0000.463 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0000.466 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0000.467 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0000.468 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0000.471 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0000.472 (0) Table wp_woocommerce_shipping_zones: Total rows added: 0 in 0.00 seconds
+0000.472 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0000.475 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0000.476 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0000.477 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0000.479 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0000.480 (0) Table wp_woocommerce_tax_rates: Total rows added: 0 in 0.00 seconds
+0000.481 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0000.483 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_options.table.gz (1/36): adding to final database dump
+0000.496 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_users.table.gz (2/36): adding to final database dump
+0000.496 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_usermeta.table.gz (3/36): adding to final database dump
+0000.497 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_commentmeta.table.gz (4/36): adding to final database dump
+0000.498 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_comments.table.gz (5/36): adding to final database dump
+0000.498 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_links.table.gz (6/36): adding to final database dump
+0000.499 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_postmeta.table.gz (7/36): adding to final database dump
+0000.518 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_posts.table.gz (8/36): adding to final database dump
+0000.540 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_term_relationships.table.gz (9/36): adding to final database dump
+0000.541 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_term_taxonomy.table.gz (10/36): adding to final database dump
+0000.542 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_termmeta.table.gz (11/36): adding to final database dump
+0000.543 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_terms.table.gz (12/36): adding to final database dump
+0000.544 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_order_itemmeta.table.gz (13/36): adding to final database dump
+0000.544 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_payment_tokenmeta.table.gz (14/36): adding to final database dump
+0000.545 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_yoast_seo_links.table.gz (15/36): adding to final database dump
+0000.546 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_yoast_seo_meta.table.gz (16/36): adding to final database dump
+0000.548 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_files.table.gz (17/36): adding to final database dump
+0000.548 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_history.table.gz (18/36): adding to final database dump
+0000.549 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_images.table.gz (19/36): adding to final database dump
+0000.549 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_imports.table.gz (20/36): adding to final database dump
+0000.551 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_posts.table.gz (21/36): adding to final database dump
+0000.551 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_pmxi_templates.table.gz (22/36): adding to final database dump
+0000.552 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_wc_download_log.table.gz (23/36): adding to final database dump
+0000.552 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_wc_webhooks.table.gz (24/36): adding to final database dump
+0000.553 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_api_keys.table.gz (25/36): adding to final database dump
+0000.554 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_attribute_taxonomies.table.gz (26/36): adding to final database dump
+0000.554 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (27/36): adding to final database dump
+0000.555 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_log.table.gz (28/36): adding to final database dump
+0000.555 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_order_items.table.gz (29/36): adding to final database dump
+0000.556 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_payment_tokens.table.gz (30/36): adding to final database dump
+0000.557 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_sessions.table.gz (31/36): adding to final database dump
+0000.558 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_shipping_zone_locations.table.gz (32/36): adding to final database dump
+0000.558 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_shipping_zone_methods.table.gz (33/36): adding to final database dump
+0000.558 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_shipping_zones.table.gz (34/36): adding to final database dump
+0000.559 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_tax_rate_locations.table.gz (35/36): adding to final database dump
+0000.560 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db-table-wp_woocommerce_tax_rates.table.gz (36/36): adding to final database dump
+0000.561 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db.gz: finished writing out complete database file (232 KB)
+0000.567 (0) Total database tables backed up: 36 (backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db.gz, size: 257283, sha256)
+0000.574 (0) backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db.gz: db: This file has not yet been successfully uploaded: will queue
+0000.575 (0) Saving backup history. Total backup size: 251.3 KB
+0000.579 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0000.582 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0000.582 (0) No remote despatch: user chose no remote backup service
+0000.584 (0) Recording as successfully uploaded: backup_2018-08-12-0049_wwwahotechcom_ae39b36026ba-db.gz (a89fbb0d05ee79631efc8d4ae47c5201)
+0000.586 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0000.587 (0) Resume backup (ae39b36026ba, 0): finish run
+0000.588 (0) Decremented the semaphore (fd) by 1
+0000.589 (0) Semaphore (fd) unlocked
+0000.590 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0000.593 (0) The backup apparently succeeded and is now complete
+0000.593 (0) No email will/can be sent - the user has not configured an email address.
+0000.594 (0) 备份成功完成
